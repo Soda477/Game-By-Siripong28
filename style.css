@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+#Board {
+    background-color: rgb(144, 147, 150);
+    border-bottom: 20px solid rgb(131, 110, 86);
+}
+
+#RetryButton{
+    width: 160px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: lightgreen;
+    color: rgb(46, 46, 46);
+    border: none;
+    border-radius: 8px;
+}
+
+
+#ReloadButton {
+    width: 160px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: rgba(34, 45, 139, 0.582);
+    color: rgb(54, 54, 54);
+    border: none;
+    border-radius: 8px;
+}
+
+#RetryButton:hover {
+    background-color: rgb(21, 139, 41);
+    color: white;
+}
+
+#ReloadButton:hover {
+    background-color: rgb(64, 11, 161);
+    color: rgb(255, 255, 255);
+}
